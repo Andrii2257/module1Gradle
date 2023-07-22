@@ -13,6 +13,7 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+
         String json = "{\"name\":\"Jhon\", \"age\":35, \"married\":true}";
 
         ObjectMapper mapper = new ObjectMapper();
